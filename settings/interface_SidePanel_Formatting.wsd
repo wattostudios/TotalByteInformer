@@ -1,0 +1,29 @@
+<WSPanel code="SidePanel_Formatting">
+	
+	<WSPanel position="NORTH" opaque="false">
+		<WSPanel code="SidePanel_Formatting_ShowFields" layout="GridLayout" rows="2" columns="2" showLabel="true" showBorder="true" position="NORTH" opaque="false">
+			<WSCheckBox code="SidePanel_Formatting_ShowByte" opaque="false" />
+			<WSCheckBox code="SidePanel_Formatting_ShowHex" opaque="false" />
+			<WSCheckBox code="SidePanel_Formatting_ShowChar" opaque="false" />
+			<WSPanel opaque="false" />
+		</WSPanel>
+		
+		<WSPanel code="SidePanel_Formatting_EndianOrder" layout="GridLayout" rows="1" columns="2" showLabel="true" showBorder="true" position="CENTER" opaque="false">
+			<WSRadioButton code="SidePanel_Formatting_LittleEndian" group="SidePanel_Formatting_EndianOrder" opaque="false" />
+			<WSRadioButton code="SidePanel_Formatting_BigEndian" group="SidePanel_Formatting_EndianOrder" opaque="false" />
+		</WSPanel>
+		
+		<WSPanel code="SidePanel_Formatting_Negatives" layout="GridLayout" rows="1" columns="2" showLabel="true" showBorder="true" position="SOUTH" opaque="false">
+			<WSRadioButton code="SidePanel_Formatting_UseNegatives" group="SidePanel_Formatting_Negatives" opaque="false" />
+			<WSRadioButton code="SidePanel_Formatting_NoNegatives" group="SidePanel_Formatting_Negatives" opaque="false" />
+		</WSPanel>
+	</WSPanel>
+	
+	<WSPanel code="SidePanel_Formatting_ShadingType" layout="GridLayout" rows="2" columns="2" showLabel="true" showBorder="true" position="CENTER" opaque="false">
+		<WSRadioButton code="SidePanel_Formatting_ShadingNone" group="SidePanel_Formatting_ShadingType" opaque="false" />
+		<WSRadioButton code="SidePanel_Formatting_ShadingGrayscale" group="SidePanel_Formatting_ShadingType" opaque="false" />
+		<WSRadioButton code="SidePanel_Formatting_ShadingHalf" group="SidePanel_Formatting_ShadingType" opaque="false" />
+		<WSRadioButton code="SidePanel_Formatting_ShadingBit" group="SidePanel_Formatting_ShadingType" opaque="false" />
+	</WSPanel>
+	
+</WSPanel>

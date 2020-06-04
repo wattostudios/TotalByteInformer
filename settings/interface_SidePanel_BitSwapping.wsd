@@ -1,0 +1,33 @@
+<WSPanel code="SidePanel_BitSwapping">
+	
+	<WSPanel position="NORTH">
+		<WSLabel code="SidePanel_BitSwapping_SwapValue_Label" position="WEST" />
+		<WSTextField code="SidePanel_BitSwapping_SwapValue" position="CENTER" />
+	</WSPanel>
+	
+	<WSPanel>
+	
+		<WSPanel code="SidePanel_BitSwapping_NoSwapShift" layout="GridLayout" rows="1" columns="1" showBorder="true" position="NORTH">
+			<WSRadioButton code="SidePanel_BitSwapping_SwapNONE" group="SidePanel_BitSwapping_SwapType" opaque="false" />
+		</WSPanel>
+	
+		<WSPanel code="SidePanel_BitSwapping_SwapType" layout="GridLayout" rows="3" columns="2" showLabel="true" showBorder="true" position="CENTER">
+.			<WSRadioButton code="SidePanel_BitSwapping_SwapXOR"  group="SidePanel_BitSwapping_SwapType" opaque="false" />
+			<WSRadioButton code="SidePanel_BitSwapping_SwapAND"  group="SidePanel_BitSwapping_SwapType" opaque="false" />
+			<WSRadioButton code="SidePanel_BitSwapping_SwapOR"   group="SidePanel_BitSwapping_SwapType" opaque="false" />
+			<WSRadioButton code="SidePanel_BitSwapping_SwapNAND" group="SidePanel_BitSwapping_SwapType" opaque="false" />
+			<WSRadioButton code="SidePanel_BitSwapping_SwapNOR"  group="SidePanel_BitSwapping_SwapType" opaque="false" />
+			<WSRadioButton code="SidePanel_BitSwapping_SwapNOT"  group="SidePanel_BitSwapping_SwapType" opaque="false" />
+		</WSPanel>
+		
+		<WSPanel code="SidePanel_BitSwapping_ShiftType" layout="GridLayout" rows="2" columns="2" showLabel="true" showBorder="true" position="SOUTH">
+			<WSRadioButton code="SidePanel_BitSwapping_ShiftLeft"     group="SidePanel_BitSwapping_SwapType" opaque="false" />
+			<WSRadioButton code="SidePanel_BitSwapping_ShiftRight"     group="SidePanel_BitSwapping_SwapType" opaque="false" />
+			<WSPanel opaque="false" />
+			<WSRadioButton code="SidePanel_BitSwapping_ShiftRightWrap" group="SidePanel_BitSwapping_SwapType" opaque="false" />
+		</WSPanel>
+		
+	</WSPanel>
+		
+	
+</WSPanel>

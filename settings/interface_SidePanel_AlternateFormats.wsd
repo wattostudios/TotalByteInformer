@@ -1,0 +1,47 @@
+<WSPanel code="SidePanel_AlternateFormats" layout="GridLayout" rows="1" columns="2" horizontal-gap="4">
+	<WSPanel>
+		<WSPanel layout="GridLayout" rows="9" columns="1" position="WEST">
+			<WSLabel code="SidePanel_AlternateFormats_Offset_Label" />
+			<WSLabel code="SidePanel_AlternateFormats_Relative_Label" />
+			<WSLabel code="SidePanel_AlternateFormats_ReadSize_Label" />
+			<WSLabel code="SidePanel_AlternateFormats_Float_Label" />
+			<WSLabel code="SidePanel_AlternateFormats_Double_Label" />
+			<WSLabel code="SidePanel_AlternateFormats_Hex_Label" />
+			<WSLabel code="SidePanel_AlternateFormats_Char_Label" />
+			<WSLabel code="SidePanel_AlternateFormats_Unicode_Label" />
+			<WSLabel code="SidePanel_AlternateFormats_Timestamp_Label" />
+		</WSPanel>
+		<WSPanel layout="GridLayout" rows="9" columns="1" position="CENTER">
+			<WSTextField code="SidePanel_AlternateFormats_Offset" />
+			<WSTextField code="SidePanel_AlternateFormats_Relative" editable="false" />
+			<WSTextField code="SidePanel_AlternateFormats_ReadSize" />
+			<WSTextField code="SidePanel_AlternateFormats_Float" editable="false" />
+			<WSTextField code="SidePanel_AlternateFormats_Double" editable="false" />
+			<WSTextField code="SidePanel_AlternateFormats_Hex" editable="false" />
+			<WSTextField code="SidePanel_AlternateFormats_Char" editable="false" />
+			<WSTextField code="SidePanel_AlternateFormats_Unicode" editable="false" />
+			<WSTextField code="SidePanel_AlternateFormats_Timestamp" editable="false" />
+		</WSPanel>
+	</WSPanel>
+	
+	<WSPanel>
+		<WSPanel position="NORTH" horizontal-gap="4">
+			<WSPanel position="NORTH" horizontal-gap="4">
+				<WSPanel layout="GridLayout" rows="2" columns="1" position="WEST">
+					<WSLabel code="SidePanel_AlternateFormats_Columns_Label" />
+					<WSLabel code="SidePanel_AlternateFormats_Absolute_Label" />
+				</WSPanel>
+				
+				<WSPanel layout="GridLayout" rows="2" columns="1" position="CENTER">
+					<WSTextField code="SidePanel_AlternateFormats_Columns" />
+					<WSTextField code="SidePanel_AlternateFormats_Absolute" editable="false" />
+				</WSPanel>
+			</WSPanel>
+			<WSTextField code="SidePanel_AlternateFormats_Filename" position="CENTER" editable="false" />
+		</WSPanel>
+		<WSScrollPane position="CENTER">
+			<WSTextArea code="SidePanel_NotesArea" />
+		</WSScrollPane>
+	</WSPanel>
+	
+</WSPanel>

@@ -1,0 +1,314 @@
+<languagePack>
+	<name>English</name>
+	<version>2.0</version>
+	<author>
+		<name>WATTO</name>
+		<email>watto@watto.org</email>
+		<website>http://www.watto.org/trans</website>
+	</author>
+	
+	<texts>
+	
+	
+		<!-- REQUIRED -->
+		
+		
+		<lang code="ProgramName" value="Total Byte Informer" />
+		<lang code="ProgramName_Free" value="Total Byte Informer (Basic Version)" />
+		
+		<lang code="Welcome" value="Welcome to Total Byte Informer!" />
+		
+		<lang code="PopupDialog_Error_Title" value="Error" />
+		<lang code="PopupDialog_Confirm_Title" value="Confirm" />
+		<lang code="PopupDialog_Message_Title" value="Message" />
+		<lang code="WSPopupDialogWrapLabel_ShowLanguagePackOutdatedError_Text" value="The language pack is out of date - please download a new one!" />
+		<lang code="PopupDialog_HidableCheckBox_Message" value="Show this message again?" />
+		
+		<lang code="WSButton_OK_Text" value="OK" />
+		<lang code="WSButton_OK_Text_Small" value="OK" />
+		<lang code="WSButton_OK_Tooltip" value="OK" />
+		<lang code="WSButton_Yes_Text" value="Yes" />
+		<lang code="WSButton_Yes_Text_Small" value="Yes" />
+		<lang code="WSButton_Yes_Tooltip" value="Yes" />
+		<lang code="WSButton_No_Text" value="No" />
+		<lang code="WSButton_No_Text_Small" value="No" />
+		<lang code="WSButton_No_Tooltip" value="No" />
+		
+		<lang code="WSSplashDialog_Plugins" value="Loading Plugins" />
+		<lang code="WSSplashDialog_ConstructInterface" value="Constructing Interface" />
+		
+		
+		<!-- WSComboButton -->
+		
+		
+		<lang code="WSButton_WSComboButtonArrow_Text" value="" />
+		
+	
+		<!-- WSFontChooser -->
+		
+		
+		<lang code="WSCheckBox_FontAllCaps_Text" value="All Caps" />
+		<lang code="WSCheckBox_FontDoubleStrikethrough_Text" value="Double Strikethrough" />
+		<lang code="WSCheckBox_FontEmboss_Text" value="Emboss" />
+		<lang code="WSCheckBox_FontEngrave_Text" value="Engrave" />
+		<lang code="WSCheckBox_FontHidden_Text" value="Hidden" />
+		<lang code="WSCheckBox_FontOutline_Text" value="Outline" />
+		<lang code="WSCheckBox_FontShadow_Text" value="Shadow" />
+		<lang code="WSCheckBox_FontSmallCaps_Text" value="Small Caps" />
+		<lang code="WSCheckBox_FontStrikethrough_Text" value="Strikethrough" />
+		<lang code="WSCheckBox_FontSubscript_Text" value="Subscript" />
+		<lang code="WSCheckBox_FontSuperscript_Text" value="Superscript" />
+		<lang code="WSLabel_FontColorLabel_Text" value="Color" />
+		<lang code="WSLabel_FontNameLabel_Text" value="Font" />
+		<lang code="WSLabel_FontPreview_Text" value="Font Style Preview" />
+		<lang code="WSLabel_FontSizeLabel_Text" value="Size" />
+		<lang code="WSLabel_FontStyleLabel_Text" value="Style" />
+		<lang code="WSLabel_FontUnderlineColorLabel_Text" value="Underline Color" />
+		<lang code="WSLabel_FontUnderlineStyleLabel_Text" value="Underline Style" />
+		<lang code="WSFontChooser_FontStyle_Bold" value="Bold" />
+		<lang code="WSFontChooser_FontStyle_BoldItalic" value="Bold Italic" />
+		<lang code="WSFontChooser_FontStyle_Italic" value="Italic" />
+		<lang code="WSFontChooser_FontStyle_Plain" value="Regular" />
+		
+		
+		<!-- WSSmallColorChooser -->
+		
+
+		<lang code="WSButton_ColorMoreColors_Text" value="More Colors..." />
+		
+		<lang code="WSColorChooser_Color_0,0,0" value="Black" />
+		<lang code="WSColorChooser_Color_128,0,0" value="Dark Red" />
+		<lang code="WSColorChooser_Color_255,0,0" value="Red" />
+		<lang code="WSColorChooser_Color_255,0,255" value="Magenta" />
+		<lang code="WSColorChooser_Color_255,153,204" value="Pink" />
+		<lang code="WSColorChooser_Color_153,51,0" value="Dark Orange" />
+		<lang code="WSColorChooser_Color_255,102,0" value="Orange" />
+		<lang code="WSColorChooser_Color_255,153,0" value="Light Orange" />
+		<lang code="WSColorChooser_Color_255,204,0" value="Peach" />
+		<lang code="WSColorChooser_Color_255,204,153" value="Apricot" />
+		<lang code="WSColorChooser_Color_51,51,0" value="Dark Olive" />
+		<lang code="WSColorChooser_Color_128,128,0" value="Olive" />
+		<lang code="WSColorChooser_Color_153,204,0" value="Light Olive" />
+		<lang code="WSColorChooser_Color_255,255,0" value="Yellow" />
+		<lang code="WSColorChooser_Color_255,255,153" value="Light Yellow" />
+		<lang code="WSColorChooser_Color_0,51,0" value="Dark Aqua" />
+		<lang code="WSColorChooser_Color_0,128,0" value="Dark Green" />
+		<lang code="WSColorChooser_Color_51,153,102" value="Aqua" />
+		<lang code="WSColorChooser_Color_0,255,0" value="Green" />
+		<lang code="WSColorChooser_Color_204,255,204" value="Light Green" />
+		<lang code="WSColorChooser_Color_0,51,102" value="Dark Ocean" />
+		<lang code="WSColorChooser_Color_0,128,128" value="Ocean" />
+		<lang code="WSColorChooser_Color_51,204,204" value="Light Ocean" />
+		<lang code="WSColorChooser_Color_0,255,255" value="Cyan" />
+		<lang code="WSColorChooser_Color_204,255,255" value="Light Cyan" />
+		<lang code="WSColorChooser_Color_0,0,128" value="Dark Blue" />
+		<lang code="WSColorChooser_Color_0,0,255" value="Blue" />
+		<lang code="WSColorChooser_Color_51,102,255" value="Light Blue" />
+		<lang code="WSColorChooser_Color_0,204,255" value="Sky" />
+		<lang code="WSColorChooser_Color_153,204,255" value="Light Sky" />
+		<lang code="WSColorChooser_Color_51,51,153" value="Violet" />
+		<lang code="WSColorChooser_Color_102,102,153" value="Light Violet" />
+		<lang code="WSColorChooser_Color_128,0,128" value="Purple" />
+		<lang code="WSColorChooser_Color_153,51,102" value="Maroon" />
+		<lang code="WSColorChooser_Color_204,153,255" value="Light Purple" />
+		<lang code="WSColorChooser_Color_51,51,51" value="Night Gray" />
+		<lang code="WSColorChooser_Color_128,128,128" value="Dark Gray" />
+		<lang code="WSColorChooser_Color_153,153,153" value="Gray" />
+		<lang code="WSColorChooser_Color_192,192,192" value="Light Gray" />
+		<lang code="WSColorChooser_Color_255,255,255" value="White" />
+
+		
+		<!-- WSMonthCalendar -->
+		
+		
+		<lang code="WSButton_NextMonth_Text" value=">" />
+		<lang code="WSButton_PreviousMonth_Text" value="<" />
+		
+		<lang code="WSButton_NextYear_Text" value=">>" />
+		<lang code="WSButton_PreviousYear_Text" value="<<" />
+		
+		<lang code="WSLabel_MondayHeaderSmall_Text" value="M" />
+		<lang code="WSLabel_TuesdayHeaderSmall_Text" value="T" />
+		<lang code="WSLabel_WednesdayHeaderSmall_Text" value="W" />
+		<lang code="WSLabel_ThursdayHeaderSmall_Text" value="T" />
+		<lang code="WSLabel_FridayHeaderSmall_Text" value="F" />
+		<lang code="WSLabel_SaturdayHeaderSmall_Text" value="S" />
+		<lang code="WSLabel_SundayHeaderSmall_Text" value="S" />
+		
+		<lang code="MonthJanuary" value="January" />
+		<lang code="MonthFebruary" value="February" />
+		<lang code="MonthMarch" value="March" />
+		<lang code="MonthApril" value="April" />
+		<lang code="MonthMay" value="May" />
+		<lang code="MonthJune" value="June" />
+		<lang code="MonthJuly" value="July" />
+		<lang code="MonthAugust" value="August" />
+		<lang code="MonthSeptember" value="September" />
+		<lang code="MonthOctober" value="October" />
+		<lang code="MonthNovember" value="November" />
+		<lang code="MonthDecember" value="December" />
+		
+		
+		<!-- CUSTOM -->
+		
+		<lang code="" value="" />
+		
+		<lang code="WSButton_AlternateFormatsLeft_Tooltip" value="Displays the Alternative Formats SidePanel in the left panel." />
+		<lang code="WSButton_AlternateFormatsRight_Tooltip" value="Displays the Alternative Formats SidePanel in the right panel." />
+		<lang code="WSButton_FormattingLeft_Tooltip" value="Displays the Formatting SidePanel in the left panel." />
+		<lang code="WSButton_FormattingRight_Tooltip" value="Displays the Formatting SidePanel in the right panel." />
+		<lang code="WSButton_MainFormatsLeft_Tooltip" value="Displays the Main Formats SidePanel in the left panel." />
+		<lang code="WSButton_MainFormatsRight_Tooltip" value="Displays the Main Formats SidePanel in the right panel." />
+		<lang code="WSButton_ReadArchiveLeft_Tooltip" value="Opens a file in the left panel." />
+		<lang code="WSButton_ReadArchiveRight_Tooltip" value="Opens a file in the right panel." />
+		<lang code="WSButton_ShadingLeft_Tooltip" value="Displays the Shading SidePanel in the left panel." />
+		<lang code="WSButton_ShadingRight_Tooltip" value="Displays the Shading SidePanel in the right panel." />
+		<lang code="WSCheckBox_SidePanel_Formatting_ShowByte_Text" value="Bytes" />
+		<lang code="WSCheckBox_SidePanel_Formatting_ShowByte_Tooltip" value="Display byte values in the table." />
+		<lang code="WSCheckBox_SidePanel_Formatting_ShowChar_Text" value="Characters" />
+		<lang code="WSCheckBox_SidePanel_Formatting_ShowChar_Tooltip" value="Display character values in the table." />
+		<lang code="WSCheckBox_SidePanel_Formatting_ShowHex_Text" value="Hex" />
+		<lang code="WSCheckBox_SidePanel_Formatting_ShowHex_Tooltip" value="Display hex values in the table." />
+		<lang code="WSCheckBox_SidePanel_Formatting_ShowUnicode_Text" value="Unicode" />
+		<lang code="WSCheckBox_SidePanel_Formatting_ShowUnicode_Tooltip" value="Display unicode values in the table." />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Absolute_Label_Text" value="Absolute" />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Absolute_Label_Tooltip" value="The absolute offset of the selected byte in the file." />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Char_Label_Text" value="Character" />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Char_Label_Tooltip" value="The character representation of the selected bytes." />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Columns_Label_Text" value="Columns" />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Columns_Label_Tooltip" value="The number of columns to display in the table." />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Double_Label_Text" value="Double" />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Double_Label_Tooltip" value="The double representation of the selected bytes." />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Float_Label_Text" value="Float" />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Float_Label_Tooltip" value="The float representation of the selected bytes." />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Hex_Label_Text" value="Hex" />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Hex_Label_Tooltip" value="The hex representation of the selected bytes." />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Offset_Label_Text" value="Offset" />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Offset_Label_Tooltip" value="The offset of the data loaded in the table." />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Relative_Label_Text" value="Relative" />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Relative_Label_Tooltip" value="The relative offset of the selected byte in the file." />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Timestamp_Label_Text" value="Timestamp" />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Timestamp_Label_Tooltip" value="The timestamp representation of the selected bytes." />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Unicode_Label_Text" value="Unicode" />
+		<lang code="WSLabel_SidePanel_AlternateFormats_Unicode_Label_Tooltip" value="The unicode representation of the selected bytes." />
+		<lang code="WSLabel_SidePanel_MainFormats_Absolute_Label_Text" value="Absolute" />
+		<lang code="WSLabel_SidePanel_MainFormats_Absolute_Label_Tooltip" value="The absolute offset of the selected byte in the file." />
+		<lang code="WSLabel_SidePanel_MainFormats_Binary_Label_Text" value="Binary" />
+		<lang code="WSLabel_SidePanel_MainFormats_Binary_Label_Tooltip" value="The binary representation of the selected bytes." />
+		<lang code="WSLabel_SidePanel_MainFormats_Byte_Label_Text" value="Byte" />
+		<lang code="WSLabel_SidePanel_MainFormats_Byte_Label_Tooltip" value="The byte representation of the selected bytes." />
+		<lang code="WSLabel_SidePanel_MainFormats_Columns_Label_Text" value="Columns" />
+		<lang code="WSLabel_SidePanel_MainFormats_Columns_Label_Tooltip" value="The number of columns to display in the table." />
+		<lang code="WSLabel_SidePanel_MainFormats_Int_Label_Text" value="Integer" />
+		<lang code="WSLabel_SidePanel_MainFormats_Int_Label_Tooltip" value="The integer representation of the selected bytes." />
+		<lang code="WSLabel_SidePanel_MainFormats_Long_Label_Text" value="Long" />
+		<lang code="WSLabel_SidePanel_MainFormats_Long_Label_Tooltip" value="The long representation of the selected bytes." />
+		<lang code="WSLabel_SidePanel_MainFormats_Offset_Label_Text" value="Offset" />
+		<lang code="WSLabel_SidePanel_MainFormats_Offset_Label_Tooltip" value="The offset of the data loaded in the table." />
+		<lang code="WSLabel_SidePanel_MainFormats_Relative_Label_Text" value="Relative" />
+		<lang code="WSLabel_SidePanel_MainFormats_Relative_Label_Tooltip" value="The relative offset of the selected byte in the file." />
+		<lang code="WSLabel_SidePanel_MainFormats_Short_Label_Text" value="Short" />
+		<lang code="WSLabel_SidePanel_MainFormats_Short_Label_Tooltip" value="The short representation of the selected bytes." />
+		<lang code="WSMenuBar_MainMenuBar_Tooltip" value="The menu for the program." />
+		<lang code="WSMenuItem_CloseProgram_Text" value="Close Program" />
+		<lang code="WSMenuItem_CloseProgram_Tooltip" value="Closes Total Byte Informer" />
+		<lang code="WSMenu_File_Text" value="File" />
+		<lang code="WSMenu_File_Tooltip" value="The File menu." />
+		<lang code="WSPanel_LeftPanel_Tooltip" value="The left panel." />
+		<lang code="WSPanel_RightPanel_Tooltip" value="The right panel." />
+		<lang code="WSPanel_SidePanel_AlternateFormats_Tooltip" value="A SidePanel displaying the alternative formats of the selected bytes." />
+		<lang code="WSPanel_SidePanel_Formatting_EndianOrder_Label" value="Endian Order" />
+		<lang code="WSPanel_SidePanel_Formatting_EndianOrder_Tooltip" value="The endian order to use when reading the file." />
+		<lang code="WSPanel_SidePanel_Formatting_Negatives_Label" value="Negatives" />
+		<lang code="WSPanel_SidePanel_Formatting_Negatives_Tooltip" value="Whether to display bytes in the table as positve/negative, or just positive." />
+		<lang code="WSPanel_SidePanel_Formatting_ShadingType_Label" value="Shading" />
+		<lang code="WSPanel_SidePanel_Formatting_ShadingType_Tooltip" value="The shading to use in the table." />
+		<lang code="WSPanel_SidePanel_Formatting_ShowFields_Label" value="Display Types" />
+		<lang code="WSPanel_SidePanel_Formatting_ShowFields_Tooltip" value="The type representations to display in the table." />
+		<lang code="WSPanel_SidePanel_MainFormats_Tooltip" value="A SidePanel displaying the main formats of the selected bytes." />
+		<lang code="WSRadioButton_SidePanel_Formatting_BigEndian_Text" value="Big Endian" />
+		<lang code="WSRadioButton_SidePanel_Formatting_BigEndian_Tooltip" value="Use big endian formatting." />
+		<lang code="WSRadioButton_SidePanel_Formatting_LittleEndian_Text" value="Little Endian" />
+		<lang code="WSRadioButton_SidePanel_Formatting_LittleEndian_Tooltip" value="Use little endian formatting." />
+		<lang code="WSRadioButton_SidePanel_Formatting_NoNegatives_Text" value="Positive Only" />
+		<lang code="WSRadioButton_SidePanel_Formatting_NoNegatives_Tooltip" value="Only display positive values." />
+		<lang code="WSRadioButton_SidePanel_Formatting_ShadingBit_Text" value="Binary" />
+		<lang code="WSRadioButton_SidePanel_Formatting_ShadingBit_Tooltip" value="Shade as a block of 8 bits." />
+		<lang code="WSRadioButton_SidePanel_Formatting_ShadingGrayscale_Text" value="Grayscale" />
+		<lang code="WSRadioButton_SidePanel_Formatting_ShadingGrayscale_Tooltip" value="Shade in a gray indicative of the byte value (0=black, 255=white)." />
+		<lang code="WSRadioButton_SidePanel_Formatting_ShadingHalf_Text" value="Half" />
+		<lang code="WSRadioButton_SidePanel_Formatting_ShadingHalf_Tooltip" value="Low/positive values are a shade of red, Higher/negative values are a shade of blue." />
+		<lang code="WSRadioButton_SidePanel_Formatting_ShadingNone_Text" value="None" />
+		<lang code="WSRadioButton_SidePanel_Formatting_ShadingNone_Tooltip" value="No shading." />
+		<lang code="WSRadioButton_SidePanel_Formatting_UseNegatives_Text" value="Positive and Negative" />
+		<lang code="WSRadioButton_SidePanel_Formatting_UseNegatives_Tooltip" value="Display positive and negative values." />
+		<lang code="WSStatusBar_StatusBar_Text" value="" />
+		<lang code="WSStatusBar_StatusBar_Tooltip" value="Hover over a component in the program, and a description will be shown here." />
+		<lang code="WSTextField_SidePanel_AlternateFormats_Absolute_Tooltip" value="The absolute offset of the selected byte in the file." />
+		<lang code="WSTextField_SidePanel_AlternateFormats_Char_Tooltip" value="The character representation of the selected bytes." />
+		<lang code="WSTextField_SidePanel_AlternateFormats_Columns_Tooltip" value="The number of columns to display in the table." />
+		<lang code="WSTextField_SidePanel_AlternateFormats_Double_Tooltip" value="The double representation of the selected bytes." />
+		<lang code="WSTextField_SidePanel_AlternateFormats_Float_Tooltip" value="The float representation of the selected bytes." />
+		<lang code="WSTextField_SidePanel_AlternateFormats_Hex_Tooltip" value="The hex representation of the selected bytes." />
+		<lang code="WSTextField_SidePanel_AlternateFormats_Offset_Tooltip" value="The offset of the data loaded in the table." />
+		<lang code="WSTextField_SidePanel_AlternateFormats_Relative_Tooltip" value="The relative offset of the selected byte in the file." />
+		<lang code="WSTextField_SidePanel_AlternateFormats_Timestamp_Tooltip" value="The timestamp representation of the selected bytes." />
+		<lang code="WSTextField_SidePanel_AlternateFormats_Unicode_Tooltip" value="The unicode representation of the selected bytes." />
+		<lang code="WSTextField_SidePanel_MainFormats_Absolute_Tooltip" value="The absolute offset of the selected byte in the file." />
+		<lang code="WSTextField_SidePanel_MainFormats_Binary_Tooltip" value="The binary representation of the selected bytes." />
+		<lang code="WSTextField_SidePanel_MainFormats_Byte_Tooltip" value="The byte representation of the selected bytes." />
+		<lang code="WSTextField_SidePanel_MainFormats_Columns_Tooltip" value="The number of columns to display in the table." />
+		<lang code="WSTextField_SidePanel_MainFormats_Int_Tooltip" value="The integer representation of the selected bytes." />
+		<lang code="WSTextField_SidePanel_MainFormats_Long_Tooltip" value="The long representation of the selected bytes." />
+		<lang code="WSTextField_SidePanel_MainFormats_Offset_Tooltip" value="The offset of the data loaded in the table." />
+		<lang code="WSTextField_SidePanel_MainFormats_Relative_Tooltip" value="The relative offset of the selected byte in the file." />
+		<lang code="WSTextField_SidePanel_MainFormats_Short_Tooltip" value="The short representation of the selected bytes." />
+		<lang code="WSToolBar_MainToolBarLeft_Tooltip" value="The controls for the left panel." />
+		<lang code="WSToolBar_MainToolBarRight_Tooltip" value="The controls for the right panel." />
+		
+		<lang code="WSLabel_SidePanel_AlternateFormats_ReadSize_Label_Text" value="Read Size" />
+		<lang code="WSLabel_SidePanel_AlternateFormats_ReadSize_Label_Tooltip" value="The number of bytes to display in the table." />
+		<lang code="WSLabel_SidePanel_MainFormats_ReadSize_Label_Text" value="Read Size" />
+		<lang code="WSLabel_SidePanel_MainFormats_ReadSize_Label_Tooltip" value="The number of bytes to display in the table." />
+		<lang code="WSTextArea_SidePanel_NotesArea_Tooltip" value="An area where you can write notes and things you want to remember." />
+		<lang code="WSTextField_SidePanel_AlternateFormats_Filename_Tooltip" value="The name of the file being displayed." />
+		<lang code="WSTextField_SidePanel_AlternateFormats_ReadSize_Tooltip" value="The number of bytes to display in the table." />
+		<lang code="WSTextField_SidePanel_MainFormats_Filename_Tooltip" value="The name of the file being displayed." />
+		<lang code="WSTextField_SidePanel_MainFormats_ReadSize_Tooltip" value="The number of bytes to display in the table." />
+
+		<lang code="WSButton_BitSwappingLeft_Tooltip" value="Displays the BitSwapping SidePanel in the left panel." />
+		<lang code="WSButton_BitSwappingRight_Tooltip" value="Displays the BitSwapping SidePanel in the right panel." />
+		<lang code="WSPanel_SidePanel_BitSwapping_SwapType_Label" value="Bit Swapping Types" />
+		<lang code="WSPanel_SidePanel_BitSwapping_SwapType_Tooltip" value="The type of swap to perform on the table data." />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_SwapAND_Text" value="AND" />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_SwapAND_Tooltip" value="Perform a swap using the AND operation." />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_SwapNAND_Text" value="NAND" />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_SwapNAND_Tooltip" value="Perform a swap using the NAND operation." />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_SwapNONE_Text" value="None" />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_SwapNONE_Tooltip" value="No swapping is performed." />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_SwapNOR_Text" value="NOR" />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_SwapNOR_Tooltip" value="Perform a swap using the NOR operation." />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_SwapNOT_Text" value="NOT" />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_SwapNOT_Tooltip" value="Perform a swap using the NOT operation." />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_SwapOR_Text" value="OR" />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_SwapOR_Tooltip" value="Perform a swap using the OR operation." />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_SwapXOR_Text" value="XOR" />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_SwapXOR_Tooltip" value="Perform a swap using the XOR operation." />
+		<lang code="WSTextField_SidePanel_BitSwapping_SwapValue_Tooltip" value="The value to use when swapping or shifting." />
+		<lang code="WSLabel_SidePanel_BitSwapping_SwapValue_Label_Text" value="Swap/Shift Value" />
+		<lang code="WSLabel_SidePanel_BitSwapping_SwapValue_Label_Tooltip" value="The value to use when swapping or shifting." />
+
+		<lang code="WSPanel_SidePanel_BitSwapping_ShiftType_Label" value="Bit Shifting Types" />
+		<lang code="WSPanel_SidePanel_BitSwapping_ShiftType_Tooltip" value="The type of shift to perform on the table data." />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_ShiftRightWrap_Text" value="Right (with Wrapping)" />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_ShiftRightWrap_Tooltip" value="Perform a swap using the Shift Right with Wrapping operation." />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_ShiftRight_Text" value="Right" />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_ShiftRight_Tooltip" value="Perform a swap using the Shift Right operation." />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_ShiftLeft_Text" value="Left" />
+		<lang code="WSRadioButton_SidePanel_BitSwapping_ShiftLeft_Tooltip" value="Perform a swap using the Shift Left operation." />
+
+		<lang code="" value="" />
+	
+	</texts>
+	
+</languagePack>
