@@ -1,0 +1,13 @@
+<plugins>
+	<prefixes>
+		<prefix type="SidePanel">SidePanel_</prefix>
+		<prefix type="Options">Options_</prefix>
+	</prefixes>
+	<locations>
+		<location type="zip">TotalByteInformer.jar</location>
+		<location type="directory"></location>
+		<location type="directory">plugins</location>
+		<location type="directory" traverse="true" package="org.watto.tbi.plugin" pathIsPackage="true">bin\org\watto\tbi\plugin</location>
+		<location type="directory" package="org.watto.component">bin\org\watto\component</location>
+	</locations>
+</plugins>

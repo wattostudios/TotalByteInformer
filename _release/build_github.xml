@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="main" name="Copy Total Byte Informer Source Code to GitHub Repository">
+    <!--this file was created by Eclipse Runnable JAR file Export Wizard-->
+    <!--ANT 1.7 is required-->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="G:/My Drive/Development/Eclipse Workspaces/Neon"/>
+    <property name="dir.jarfile" value="${dir.buildfile}"/>
+	<property name="dir.home" value="G:/My Drive/Development/Java/Total Byte Informer"/>
+	<property name="dir.target" value="G:/My Drive/Development/GitHub/TotalByteInformer/"/>
+	<property name="dir.wsprogram.home" value="G:/My Drive/Development/Java/WSProgram 4.0"/>
+	
+	<!-- Copy the source directories -->
+    <target name="copy_directories">
+    	<echo message="Copying directories..."/>
+       	<copy todir="${dir.target}/src" overwrite="true">  
+        	<fileset dir="${dir.wsprogram.home}/src/">
+          	 	<include name="**"/>
+           	</fileset>
+       	    <fileset dir="${dir.home}/src/">
+       	    	<include name="**"/>
+       	    </fileset>
+       	</copy>
+        <copy todir="${dir.target}" overwrite="true">  
+           	<fileset dir="${dir.wsprogram.home}/">
+           		<include name="images/**"/>
+           		<include name="language/**"/>
+           		<include name="settings/**"/>
+           		<include name="xml/**"/>
+           	</fileset>
+        </copy>
+        <copy todir="${dir.target}" overwrite="true">
+            <fileset dir="${dir.home}/">
+            	<include name="*.txt"/>
+            	<include name="_release/**"/>
+            	<include name="images/**"/>
+            	<include name="interface/**"/>
+            	<include name="language/**"/>
+            	<include name="settings/**"/>
+            	<include name="xml/**"/>
+            </fileset>
+        </copy>
+        <copy todir="${dir.target}" overwrite="true">  
+            <fileset dir="${dir.home}/_install/extras/">
+            	<include name="**"/>
+            </fileset>
+        </copy>
+    </target>
+	
+	<!-- Remove Class Files -->
+    <target name="remove_class_files">
+    	<echo message="Removing class files..."/>
+       	<delete>
+        	<fileset dir="${dir.target}" includes="**/*.class" />
+       	</delete>
+    </target>
+
+	<!-- The main execution -->
+	<target name="main">
+		<antcall target="copy_directories"/>
+		<antcall target="remove_class_files"/>
+	</target>
+</project>

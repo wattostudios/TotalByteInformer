@@ -1,2 +1,0 @@
-Main-Class: TotalByteInformer
-Class-Path: ./;

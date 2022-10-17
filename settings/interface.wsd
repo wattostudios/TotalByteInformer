@@ -1,37 +1,0 @@
-<WSPanel code="MainWindowFrame" layout="BorderLayout">
-	<WSMenuBar code="MainMenuBar" position="NORTH">
-		<WSMenu code="File" opaque="false" underline="F">
-			<WSMenuItem code="CloseProgram" opaque="false" underline="L" shortcut="F12" />
-		</WSMenu>
-	</WSMenuBar>
-	<WSSplitPane code="MainSplit" position="CENTER" divider-size="5">
-		<WSPanel code="LeftPanel" position="WEST" border-width="4" layout="BorderLayout">
-			<WSToolBar code="MainToolBarLeft" position="NORTH">
-				<WSButton code="ReadArchiveLeft" opaque="false" showText="false" />
-				<WSButton code="MainFormatsLeft" opaque="false" showText="false" />
-				<WSButton code="AlternateFormatsLeft" opaque="false" showText="false" />
-				<WSButton code="FormattingLeft" opaque="false" showText="false" />
-				<WSButton code="BitSwappingLeft" opaque="false" showText="false" />
-			</WSToolBar>
-			<WSScrollPane position="CENTER" horizontal-scrollbar="auto" vertical-scrollbar="auto" showBorder="true" showBackground="true">
-				<WSTable code="DataTableLeft" />
-			</WSScrollPane>
-			<WSSidePanelHolder code="PanelHolderLeft" position="SOUTH" />
-		</WSPanel>
-		<WSPanel code="RightPanel" position="EAST" border-width="4" layout="BorderLayout">
-			<WSScrollPane position="CENTER" horizontal-scrollbar="auto" vertical-scrollbar="auto" showBorder="true" showBackground="true">
-				<WSTable code="DataTableRight" />
-			</WSScrollPane>
-			<WSSidePanelHolder code="PanelHolderRight" position="SOUTH" />
-			<WSToolBar code="MainToolBarRight" position="NORTH">
-				<WSButton code="ReadArchiveRight" opaque="false" showText="false" />
-				<WSButton code="MainFormatsRight" opaque="false" showText="false" />
-				<WSButton code="AlternateFormatsRight" opaque="false" showText="false" />
-				<WSButton code="FormattingRight" opaque="false" showText="false" />
-				<WSButton code="BitSwappingRight" opaque="false" showText="false" />
-			</WSToolBar>
-		</WSPanel>
-	</WSSplitPane>
-	<WSStatusBar code="StatusBar" opaque="false" position="SOUTH" />
-</WSPanel>
-

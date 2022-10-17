@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="main" name="Create Runnable Jar for Total Byte Informer (Full Version)">
+	<!--this file was created by Eclipse Runnable JAR file Export Wizard-->
+	<!--ANT 1.7 is required-->
+	<!--define folder properties-->
+	<property name="dir.buildfile" value="." />
+	<property name="dir.workspace" value="G:/My Drive/Development/Eclipse Workspaces/Neon" />
+	<property name="dir.jarfile" value="${dir.buildfile}" />
+	<property name="dir.home" value="G:/My Drive/Development/Java/Total Byte Informer" />
+	<property name="dir.target" value="${dir.home}/_release/full" />
+	<property name="dir.wsprogram.home" value="G:/My Drive/Development/Java/WSProgram 4.0" />
+
+	<!-- Removes the existing files from the target directories -->
+	<target name="clean_target_directories">
+		<echo message="Removing old packages and files..." />
+		<delete dir="${dir.target}" />
+		<mkdir dir="${dir.target}" />
+		<delete dir="${dir.home}/_release/packages/full" />
+		<mkdir dir="${dir.home}/_release/packages/full" />
+	</target>
+
+	<!-- Create JAR file -->
+	<target name="create_run_jar">
+		<echo message="Building JAR file..." />
+		<jar destfile="${dir.target}/TotalByteInformer.jar">
+			<manifest>
+				<attribute name="Main-Class" value="org.watto.tbi.TotalByteInformer" />
+				<attribute name="Class-Path" value="./" />
+			</manifest>
+			<fileset dir="G:/My Drive/Development/Java/Total Byte Informer/bin" />
+			<fileset dir="G:/My Drive/Development/Java/WSProgram 4.0/bin" />
+		</jar>
+	</target>
+
+	<!-- Copy the directories for images, help, settings, etc. -->
+	<target name="copy_directories">
+		<echo message="Copying directories..." />
+		<copy todir="${dir.target}" overwrite="true">
+			<fileset dir="${dir.wsprogram.home}">
+				<include name="/images/**" />
+				<include name="/language/**" />
+				<include name="/settings/**" />
+				<include name="/xml/**" />
+			</fileset>
+		</copy>
+		<copy todir="${dir.target}" overwrite="true">
+			<fileset dir="${dir.home}">
+				<include name="/images/**" />
+				<include name="/interface/**" />
+				<include name="/language/**" />
+				<include name="/settings/**" />
+				<include name="/temp/**" />
+				<include name="/xml/**" />
+			</fileset>
+		</copy>
+		<copy todir="${dir.target}" overwrite="true">
+			<fileset dir="${dir.home}/_install/extras/">
+				<include name="**" />
+			</fileset>
+		</copy>
+		<copy file="${dir.home}/_Readme_TotalByteInformer.txt" todir="${dir.target}" />
+	</target>
+
+	<!-- Make empty default directories -->
+	<target name="make_empty_directories">
+		<echo message="Making empty directories..." />
+		<mkdir dir="${dir.target}/logs" />
+		<mkdir dir="${dir.target}/temp" />
+	</target>
+
+	<!-- Resets the Settings and Interface files to the defaults -->
+	<target name="reset_settings_to_default">
+		<echo message="Resetting settings and interfaces to their default..." />
+
+		<delete file="${dir.target}/settings/settings.xml" />
+		<!-- <copy file="${dir.target}/settings/default.xml" tofile="${dir.target}/settings/settings.xml" /> -->
+
+		<delete file="${dir.target}/interface/interface.xml" />
+		<!-- <copy file="${dir.target}/interface/default.xml" tofile="${dir.target}/interface/interface.xml" /> -->
+
+	</target>
+
+	<!-- Builds the launcher in launch4j -->
+	<target name="build_launcher">
+		<echo message="Building the launcher..." />
+		<echo message="CHECK THAT THE VERSION NUMBER HAS BEEN UPDATED IN THE LAUNCHER" />
+	</target>
+
+	<!-- Builds the installer in nsis -->
+	<target name="build_installer">
+		<echo message="Building the installer..." />
+		<echo message="CHECK THAT THE VERSION NUMBER HAS BEEN UPDATED IN THE NSIS SCRIPT" />
+		<exec executable="C:\Program Files (x86)\NSIS\Bin\makensis.exe" failonerror="true">
+			<arg value="/V1" />
+			<arg value="${dir.home}\_install\nsis\nsis_full.nsi" />
+		</exec>
+	</target>
+
+	<!-- Builds the zip package -->
+	<target name="build_zip_package">
+		<echo message="Building the zip package..." />
+		<zip basedir="${dir.target}" destfile="${dir.home}\_release\packages\full\tbi.zip" />
+	</target>
+
+	<!-- The main execution -->
+	<target name="main">
+		<antcall target="clean_target_directories" />
+		<antcall target="create_run_jar" />
+		<antcall target="copy_directories" />
+		<antcall target="make_empty_directories" />
+		<antcall target="reset_settings_to_default" />
+		<antcall target="build_launcher" />
+		<antcall target="build_installer" />
+		<antcall target="build_zip_package" />
+	</target>
+</project>

@@ -1,0 +1,3 @@
+INFO: [WSPluginManager] Plugin location plugins could not be found
+INFO: [WSPluginManager] Plugin location bin/org/watto/tbi/plugin could not be found
+INFO: [WSPluginManager] Plugin location bin/org/watto/component could not be found

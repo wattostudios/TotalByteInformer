@@ -1,0 +1,129 @@
+<settingsStore>
+	<program>Total Byte Informer</program>
+	<settings>
+	
+		<setting code="Version" value="3.0" changable="false" />
+		
+		<setting code="AboutFile" value="settings/about.xml" />
+		<setting code="AddTextChangesIntoUndo" value="true" />
+		<setting code="AutoResizeTableColumns" value="true" />
+		<setting code="CurrentDirectory" value="" />
+		<setting code="CurrentFileList" value="Table" />
+		<setting code="CurrentLanguage" value="English" />
+		<setting code="DebugMode" value="false" />
+		<setting code="DefaultInterfaceColors" value="-12814286" />
+		<setting code="DefaultInterfaceFile" value="interface/default.xml" />
+		<setting code="DefaultSettingsFile" value="settings/default.xml" />
+		<setting code="DirectoryListDoubleClickDoesOpenArchive" value="true" />
+		<setting code="DirectoryListView" value="List" />
+		<setting code="DividerLocation" value="0.5" />
+		<setting code="ExtendedLanguageDebug" value="false" />
+		<setting code="ExtendedSettingsDebug" value="false" />
+		<setting code="InterfaceColors" value="-12814286" />
+		<setting code="InterfaceColors" value="-65536" />
+		<setting code="InterfaceFile" value="interface/interface.xml" />
+		<setting code="InterfaceLookAndFeel" value="ButterflyLookAndFeel" />
+		<setting code="LanguageDirectory" value="language" />
+		<setting code="LargeButtonIcons" value="false" />
+		<setting code="Left_CurrentSidePanel" value="SidePanel_Analysis" />
+		<setting code="Left_NumberOfColumns" value="64" />
+		<setting code="Left_ReadLength" value="100000" />
+		<setting code="Left_ShadingType" value="0" />
+		<setting code="Left_DisplayType" value="1" />
+		<setting code="Right_DisplayType" value="1" />
+		<setting code="Left_SwapType" value="0" />
+		<setting code="MaxFilenameLength" value="255" />
+		<setting code="MaxNumberOfFiles2" value="40000" />
+		<setting code="MaxNumberOfFiles4" value="100000" />
+		<setting code="NumberOfRecentFiles" value="4" />
+		<setting code="NumberOfUndoTasks" value="4" />
+		<setting code="OpenArchiveOnDoubleClick" value="true" />
+		<setting code="PluginListDisplayType" value="Game" />
+		<setting code="PluginPathsFile" value="settings/plugins.xml" />
+		<setting code="Popup_AddFiles_FilesAdded_Show" value="true" />
+		<setting code="Popup_AddFiles_FilesRemoved_Show" value="true" />
+		<setting code="Popup_AddFiles_NegativeNumberOfFiles_Show" value="true" />
+		<setting code="Popup_ConvertArchive_FilenameMissing_Show" value="true" />
+		<setting code="Popup_FullVersionOnly_Show" value="true" />
+		<setting code="Popup_Options_OptionsSaved_Show" value="true" />
+		<setting code="Popup_ReadArchive_ArchiveOpened_Show" value="true" />
+		<setting code="Popup_ReadArchive_FilenameMissing_Show" value="true" />
+		<setting code="Popup_ReadArchive_FileNotAnArchive_Show" value="true" />
+		<setting code="Popup_ReadArchive_MakeNewArchive_Show" value="false" />
+		<setting code="Popup_ReadArchive_NoPluginsFound_Show" value="true" />
+		<setting code="Popup_ReadArchive_ReadWithPluginFailed_Show" value="true" />
+		<setting code="Popup_RemoveFiles_FilesAdded_Show" value="true" />
+		<setting code="Popup_RemoveFiles_FilesRemoved_Show" value="true" />
+		<setting code="Popup_RemoveFiles_NoFilesToRemove_Show" value="true" />
+		<setting code="Popup_Search_MatchFound_Show" value="true" />
+		<setting code="Popup_Search_NoColumnsSelected_Show" value="true" />
+		<setting code="Popup_Search_NoMatchFound_Show" value="true" />
+		<setting code="Popup_Search_NoSearchValue_Show" value="true" />
+		<setting code="Popup_SelectResources_All_Show" value="true" />
+		<setting code="Popup_SelectResources_Inverse_Show" value="true" />
+		<setting code="Popup_SelectResources_None_Show" value="true" />
+		<setting code="Popup_SidePanelChanged_Show" value="true" />
+		<setting code="Popup_WriteArchive_ArchiveSaved_Show" value="true" />
+		<setting code="Popup_WriteArchive_FilenameMissing_Show" value="true" />
+		<setting code="Right_CurrentSidePanel" value="SidePanel_Analysis" />
+		<setting code="Right_NumberOfColumns" value="64" />
+		<setting code="Right_ReadLength" value="100000" />
+		<setting code="Right_ShadingType" value="0" />
+		<setting code="Right_SwapType" value="0" />
+		<setting code="SelectedOptionGroup" value="6" />
+		<setting code="SettingsFile" value="settings\settings.xml" />
+		<setting code="SettingsFile-Defaults" value="settings\default.xml" />
+		<setting code="ShowLanguagePackOutdatedError" value="false" />
+		<setting code="ShowSplashScreen" value="true" />
+		<setting code="ShowSystemSpecificIcons" value="true" />
+		<setting code="ShowTableColumn_AddedIcon" value="true" />
+		<setting code="ShowTableColumn_Attribute" value="true" />
+		<setting code="ShowTableColumn_ID" value="true" />
+		<setting code="ShowTableColumn_Original" value="true" />
+		<setting code="ShowTableColumn_RenamedIcon" value="true" />
+		<setting code="ShowTableColumn_Translated" value="true" />
+		<setting code="SidePanel_DirectoryList_CurrentControl" value="ReadPanel" />
+		<setting code="SortPluginLists" value="true" />
+		<setting code="TempDirectory" value="temp" />
+		<setting code="Theme_ButterflyLookAndFeel_BackgroundColor" value="9999999999" />
+		<setting code="Theme_ButterflyLookAndFeel_InterfaceColors" value="-9725853" />
+		<setting code="Theme_ButterflyLookAndFeel_TextColor" value="0" />
+		<setting code="Theme_ButterflyLookAndFeel_UseAntiAlias" value="true" />
+		<setting code="ToolbarButtonListFile" value="settings/toolbarButtonList.xml" />
+		<setting code="ToolbarLocation" value="ToolbarLocation_Top" />
+		<setting code="WSCalculatorXML" value="xml/WSCalculator.xml" />
+		<setting code="WSFontChooser_FontName_Selected" value="Arial" />
+		<setting code="WSFontChooser_FontSize_Selected" value="12" />
+		<setting code="WSFontChooser_FontStyle_Selected" value="Plain" />
+		<setting code="WSFontChooserXML" value="xml/WSFontChooser.xml" />
+		<setting code="WSGradientColorChooser_Color_Selected" value="-9725853" />
+		<setting code="WSGradientColorChooserXML" value="xml/WSGradientColorChooser.xml" />
+		<setting code="WSMonthCalendarXML" value="xml/WSMonthCalendar.xml" />
+		<setting code="WSProgramClosesSplashScreen" value="true" />
+		<setting code="WSSmallColorChooserXML" value="xml/WSSmallColorChooser.xml" />
+		<setting code="WSTableColumn_a_Width" value="18" />
+		<setting code="WSTableColumn_AddedIcon_Width" value="18" />
+		<setting code="WSTableColumn_c_Width" value="106" />
+		<setting code="WSTableColumn_CompressedLength_Width" value="280" />
+		<setting code="WSTableColumn_CRC_Width" value="65" />
+		<setting code="WSTableColumn_d_Width" value="107" />
+		<setting code="WSTableColumn_DecompressedLength_Width" value="279" />
+		<setting code="WSTableColumn_Description_Width" value="238" />
+		<setting code="WSTableColumn_E_Width" value="87" />
+		<setting code="WSTableColumn_FilePath_Width" value="280" />
+		<setting code="WSTableColumn_i_Width" value="18" />
+		<setting code="WSTableColumn_I_Width" value="203" />
+		<setting code="WSTableColumn_Icon_Width" value="18" />
+		<setting code="WSTableColumn_O_Width" value="83" />
+		<setting code="WSTableColumn_Offset_Width" value="121" />
+		<setting code="WSTableColumn_P_Width" value="197" />
+		<setting code="WSTableColumn_r_Width" value="18" />
+		<setting code="WSTableColumn_RenamedIcon_Width" value="18" />
+		<setting code="WSTableColumn_ReplacedIcon_Width" value="18" />
+		<setting code="WSTableColumn_T_Width" value="62" />
+		<setting code="WSTableColumn_Time_Width" value="65" />
+		<setting code="WSTableColumn_X_Width" value="63" />
+		<setting code="" value="" />
+	</settings>
+</settingsStore>
+

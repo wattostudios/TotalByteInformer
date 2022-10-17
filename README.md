@@ -3,24 +3,15 @@ Raw File Data Interpreter
 http://www.watto.org
 
 ## About Total Byte Informer
-There are literally thousands of different file formats that exist in the computing world,
-covering a wide range of different purposes and design structures. For people who wish to
-examine these formats more closely, they commonly use a hex editor to display the contents of
-these files. Hex editing tools can be very powerful, but they can also be very difficult to use,
-particularly if you cannot quickly and easily read hex.
+Total Byte Informer is a program that works similar to a hex viewer, but is designed primarily 
+to help identify and reverse-engineer unknown file formats. It allows side-by-side viewing of
+multiple files for comparison purposes, or open the same file multiple times to view different
+parts of the file. Values can be displayed as hex, byte, or char, and null bytes are displayed
+in a different color for easy identification. Common data representations are displayed on a
+single screen in both little-endian and big-endian orders, and you can perform simple bit-shift
+and bit-swap operations on the data of a file.
 
-Total Byte Informer is a program that was originally written to assist in the examination of
-game archives, but can be used for any type of file. Customization of the user interface is
-paramount to provide for many different people and purposes: for example, file data can be
-displayed as hex, byte values, or characters. A range of different shadings can be applied to
-visualise the structure of a file format in colors rather than numbers. You can even perform
-bit swapping or shifting on the data before it is displayed.
-
-Total Byte Informer is not an editor, so if you need to make changes to file data then you will
-still need to use a hex editor; Total Byte Informer is a simple data viewing program to make
-examination easier for all types of people.
-
-For further information, downloads, and help, visit the website at http://www.watto.org/
+For further information, downloads, and help, visit the website at https://www.watto.org
 
 ## GitHub Information
 
@@ -35,12 +26,41 @@ For further information, downloads, and help, visit the website at http://www.wa
   pretty, but it does the job it's intended to be used for.
 * This tool is completely unsupported by wattostudios.
   
-## Installation/Build Prerequisites
+## Installation and Build Prerequisites
 
-Total Byte Informer requires you to have Java Runtime Environment 6.0 (or 1.6) or later installed on
+Total Byte Informer requires you to have Java Runtime Environment 8.0 (or 1.8) or later installed on
 your computer. This is a free download from http://www.java.com 
 
+We maintain the project using Eclipse. You should be able to download the repository, and import
+it into Eclipse via the menu path File -- Open Projects from File System. The main entry point
+is under src/org/watto/tbi/TotalByteInformer.java
+
+## Operating System Support
+
+Total Byte Informer is only officially supported on Windows. While Java can theoretically run on many
+different operating systems, this doesn't necessarily mean that Total Byte Informer works correctly
+or completely on those operating systems.
+
+We have performed some very basic tests on Linux-based operating systems (does the program open,
+and does it read an archive) - that's about it. We have provided some extremely basic scripts to
+assist running in ksh/csh/bash shells, however you should evaluate the scripts and adjust them
+appropriately for your system.
+
+We would expect that most functions would operate correctly in non-Windows environments, but
+offer no guarantees of this, and in some situations we may not be able to make it work in those
+environments at all.
+
 ## Version History
+
+* Version 3.0
+  * [I] New major release with the following significant changes...
+    * [I] Built on Java 8.0, implementation of Java Packages and other code enhancements
+    * [I] Development using Eclipse, build and deployment using Apache Ant
+    * [I] WSProgram 4.0 now used as the program base
+    * [I] New theme ButterflyLookAndFeel implemented by default
+    * [I] Using launch4J for building the Windows executable, NSIS 3.0 for the installer
+    * [I] Implementation of usability improvements and simplifications over the previous release
+  * [+] XOR can now perform bitswapping on a multi-value key, with values separated by space or comma
 
 * Version 2.0
   * [I] Complete rebuild to use WSProgram 3.0, and to improve on the poor performance of version 1.0

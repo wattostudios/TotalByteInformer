@@ -1,0 +1,40 @@
+<WSPanel code="SidePanel_Formatting">
+	
+	<WSPanel position="CENTER" showBorder="true" border-width="2">
+		<WSPanel position="NORTH" opaque="false" horizontal-gap="4">
+			<WSLabel code="SidePanel_Formatting_SwapValue_Label" position="WEST" opaque="false" border-width="2" />
+			<WSTextField code="SidePanel_Formatting_SwapValue" position="CENTER" opaque="false" />
+		</WSPanel>
+
+		<WSPanel opaque="false">
+			<WSPanel code="SidePanel_Formatting_SwapType" layout="GridLayout" rows="4" columns="3" showLabel="false" showBorder="true" position="CENTER" opaque="false">
+				<WSRadioButton code="SidePanel_Formatting_SwapNONE"       group="SidePanel_Formatting_SwapType" opaque="false" />
+				<WSPanel opaque="false" />
+				<WSPanel opaque="false" />
+				<WSRadioButton code="SidePanel_Formatting_SwapXOR"        group="SidePanel_Formatting_SwapType" opaque="false" />
+				<WSRadioButton code="SidePanel_Formatting_SwapAND"        group="SidePanel_Formatting_SwapType" opaque="false" />
+				<WSRadioButton code="SidePanel_Formatting_SwapOR"         group="SidePanel_Formatting_SwapType" opaque="false" />
+				<WSRadioButton code="SidePanel_Formatting_SwapNAND"       group="SidePanel_Formatting_SwapType" opaque="false" />
+				<WSRadioButton code="SidePanel_Formatting_SwapNOR"        group="SidePanel_Formatting_SwapType" opaque="false" />
+				<WSRadioButton code="SidePanel_Formatting_SwapNOT"        group="SidePanel_Formatting_SwapType" opaque="false" />
+				<WSRadioButton code="SidePanel_Formatting_ShiftLeft"      group="SidePanel_Formatting_SwapType" opaque="false" />
+				<WSRadioButton code="SidePanel_Formatting_ShiftRight"     group="SidePanel_Formatting_SwapType" opaque="false" />
+				<WSRadioButton code="SidePanel_Formatting_ShiftRightWrap" group="SidePanel_Formatting_SwapType" opaque="false" />
+			</WSPanel>
+		</WSPanel>
+	</WSPanel>
+	
+	<WSPanel position="SOUTH" showBorder="true" border-width="2">
+		<WSPanel code="SidePanel_Formatting_DisplayType" layout="GridLayout" rows="1" columns="3" showLabel="true" showBorder="true" position="NORTH" opaque="false">
+			<WSRadioButton code="SidePanel_Formatting_ShowByte" group="SidePanel_Formatting_DisplayType" opaque="false" />
+			<WSRadioButton code="SidePanel_Formatting_ShowHex"  group="SidePanel_Formatting_DisplayType" opaque="false" />
+			<WSRadioButton code="SidePanel_Formatting_ShowChar" group="SidePanel_Formatting_DisplayType" opaque="false" />
+		</WSPanel>
+
+		<WSPanel code="SidePanel_Formatting_ShadingType" layout="GridLayout" rows="1" columns="3" showLabel="true" showBorder="true" position="CENTER" opaque="false">
+			<WSRadioButton code="SidePanel_Formatting_ShadingNone"      group="SidePanel_Formatting_ShadingType" opaque="false" />
+			<WSRadioButton code="SidePanel_Formatting_ShadingGrayscale" group="SidePanel_Formatting_ShadingType" opaque="false" />
+			<WSRadioButton code="SidePanel_Formatting_ShadingHalf"      group="SidePanel_Formatting_ShadingType" opaque="false" />
+		</WSPanel>
+	</WSPanel>
+</WSPanel>

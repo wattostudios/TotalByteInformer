@@ -1,0 +1,73 @@
+<WSPanel code="SidePanel_Analysis" layout="GridLayout" rows="1" columns="2">
+
+	<WSPanel layout="BorderLayout" position="NORTH">
+		<WSPanel layout="GridLayout" rows="1" columns="2" position="NORTH" showBorder="true" horizontal-gap="4" border-width="4">
+			<WSPanel opaque="false" horizontal-gap="4">
+				<WSPanel layout="GridLayout" rows="2" columns="1" position="WEST" opaque="false">
+					<WSLabel code="SidePanel_Analysis_Offset_Label" />
+					<WSLabel code="SidePanel_Analysis_Relative_Label" />
+				</WSPanel>
+				<WSPanel layout="GridLayout" rows="2" columns="1" position="CENTER" opaque="false">
+					<WSTextField code="SidePanel_Analysis_Offset" opaque="false" />
+					<WSTextField code="SidePanel_Analysis_Relative" editable="false" opaque="false" />
+				</WSPanel>
+			</WSPanel>
+			<WSPanel opaque="false" horizontal-gap="4">
+				<WSPanel layout="GridLayout" rows="2" columns="1" position="WEST" opaque="false">
+					<WSLabel code="SidePanel_Analysis_Columns_Label" />
+					<WSLabel code="SidePanel_Analysis_Absolute_Label" />
+				</WSPanel>
+				<WSPanel layout="GridLayout" rows="2" columns="1" position="CENTER" opaque="false">
+					<WSTextField code="SidePanel_Analysis_Columns" opaque="false" />
+					<WSTextField code="SidePanel_Analysis_Absolute" editable="false" opaque="false" />
+				</WSPanel>
+			</WSPanel>
+		</WSPanel>
+	
+		<WSPanel layout="BorderLayout" showBorder="true" horizontal-gap="4" border-width="4">
+			<WSPanel layout="GridLayout" rows="8" columns="1" position="WEST" opaque="false" border-width="4">
+				<WSLabel code="SidePanel_Analysis_Byte_Label" horizontal-alignment="right" />
+				<WSLabel code="SidePanel_Analysis_Short_Label" horizontal-alignment="right" />
+				<WSLabel code="SidePanel_Analysis_Int_Label" horizontal-alignment="right" />
+				<WSLabel code="SidePanel_Analysis_Long_Label" horizontal-alignment="right" />
+				<WSLabel code="SidePanel_Analysis_Float_Label" horizontal-alignment="right" />
+				<WSLabel code="SidePanel_Analysis_Double_Label" horizontal-alignment="right" />
+				<WSLabel code="SidePanel_Analysis_Binary_Label" horizontal-alignment="right" />
+				<WSLabel code="SidePanel_Analysis_Hex_Label" horizontal-alignment="right" />
+			</WSPanel>
+			<WSPanel layout="GridLayout" rows="1" columns="2" position="CENTER" opaque="false">
+				<WSPanel layout="GridLayout" rows="8" columns="1" position="CENTER" opaque="false">
+					<WSTextField code="SidePanel_Analysis_Byte_Little" editable="false" opaque="false" />
+					<WSTextField code="SidePanel_Analysis_Short_Little" editable="false" opaque="false" />
+					<WSTextField code="SidePanel_Analysis_Int_Little" editable="false" opaque="false" />
+					<WSTextField code="SidePanel_Analysis_Long_Little" editable="false" opaque="false" />
+					<WSTextField code="SidePanel_Analysis_Float_Little" editable="false" opaque="false" />
+					<WSTextField code="SidePanel_Analysis_Double_Little" editable="false" opaque="false" />
+					<WSTextField code="SidePanel_Analysis_Binary_Little" editable="false" opaque="false" />
+					<WSTextField code="SidePanel_Analysis_Hex_Little" editable="false" opaque="false" />
+				</WSPanel>
+				<WSPanel layout="GridLayout" rows="8" columns="1" position="CENTER" opaque="false">
+					<WSTextField code="SidePanel_Analysis_Byte_Big" editable="false" opaque="false" />
+					<WSTextField code="SidePanel_Analysis_Short_Big" editable="false" opaque="false" />
+					<WSTextField code="SidePanel_Analysis_Int_Big" editable="false" opaque="false" />
+					<WSTextField code="SidePanel_Analysis_Long_Big" editable="false" opaque="false" />
+					<WSTextField code="SidePanel_Analysis_Float_Big" editable="false" opaque="false" />
+					<WSTextField code="SidePanel_Analysis_Double_Big" editable="false" opaque="false" />
+					<WSTextField code="SidePanel_Analysis_Binary_Big" editable="false" opaque="false" />
+					<WSTextField code="SidePanel_Analysis_Hex_Big" editable="false" opaque="false" />
+				</WSPanel>
+			</WSPanel>
+		</WSPanel>
+	</WSPanel>
+
+	<WSPanel>
+		<WSPanel position="NORTH">
+			<WSTextField code="SidePanel_Analysis_Filename" position="CENTER" editable="false" />
+			<WSTextField code="SidePanel_Analysis_FileSize" position="EAST" editable="false" width="100" />
+		</WSPanel>
+		<WSScrollPane position="CENTER" showInnerBorder="true" height="50" border-width="0">
+			<WSTextArea code="SidePanel_NotesArea" border-width="0" />
+		</WSScrollPane>
+	</WSPanel>
+
+</WSPanel>

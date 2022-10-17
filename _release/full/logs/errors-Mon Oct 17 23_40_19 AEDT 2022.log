@@ -1,0 +1,11 @@
+ERROR: java.io.FileNotFoundException: The settings file G:\My Drive\Development\Java\Total Byte Informer\_release\full\settings\settings.xml does not exist
+org.watto.Settings.loadSettings(Settings.java:246)
+org.watto.Settings.<init>(Settings.java:500)
+org.watto.WSProgram.buildProgram(WSProgram.java:80)
+org.watto.WSProgram.<init>(WSProgram.java:61)
+org.watto.tbi.TotalByteInformer.<init>(TotalByteInformer.java:73)
+org.watto.tbi.TotalByteInformer.<clinit>(TotalByteInformer.java:59)
+===== END OF ERROR =====
+INFO: [WSPluginManager] Plugin location plugins could not be found
+INFO: [WSPluginManager] Plugin location bin/org/watto/tbi/plugin could not be found
+INFO: [WSPluginManager] Plugin location bin/org/watto/component could not be found

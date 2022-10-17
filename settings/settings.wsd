@@ -1,112 +1,0 @@
-<settingsStore>
-	<program>Total Byte Informer</program>
-	<settings>
-		<setting code="MaxFilenameLength" value="255" />
-		<setting code="NumberOfUndoTasks" value="4" />
-		<setting code="ExtendedSettingsDebug" value="false" />
-		<setting code="Popup_ReadArchive_MakeNewArchive_Show" value="false" />
-		<setting code="LargeButtonIcons" value="false" />
-		<setting code="CurrentLanguage" value="English" />
-		<setting code="NumberOfRecentFiles" value="4" />
-		<setting code="Left_SwapType" value="0" />
-		<setting code="Right_ShowCharValue" value="true" />
-		<setting code="Popup_SelectResources_Inverse_Show" value="true" />
-		<setting code="Popup_SidePanelChanged_Show" value="true" />
-		<setting code="Popup_Search_MatchFound_Show" value="true" />
-		<setting code="Left_ReadLength" value="100000" />
-		<setting code="PluginPathsFile" value="settings/plugins.wsd" />
-		<setting code="AboutFile" value="settings/about.wsd" />
-		<setting code="InterfaceFile" value="settings/interface.wsd" />
-		<setting code="WSTableColumn_c_Width" value="84" />
-		<setting code="Popup_ReadArchive_ArchiveOpened_Show" value="true" />
-		<setting code="Right_ShowByteValue" value="false" />
-		<setting code="Left_ShadingType" value="0" />
-		<setting code="Left_ShowCharValue" value="true" />
-		<setting code="Popup_ReadArchive_NoPluginsFound_Show" value="true" />
-		<setting code="Left_CurrentSidePanel" value="SidePanel_MainFormats" />
-		<setting code="Popup_ReadArchive_ReadWithPluginFailed_Show" value="true" />
-		<setting code="ShowSplashScreen" value="true" />
-		<setting code="WSFontChooser_FontName_Selected" value="Arial" />
-		<setting code="Left_UseNegatives" value="false" />
-		<setting code="WSFontChooser_FontStyle_Selected" value="Plain" />
-		<setting code="ShowSystemSpecificIcons" value="true" />
-		<setting code="ShowTableColumn_ID" value="true" />
-		<setting code="Popup_ConvertArchive_FilenameMissing_Show" value="true" />
-		<setting code="Popup_RemoveFiles_NoFilesToRemove_Show" value="true" />
-		<setting code="Right_UseNegatives" value="false" />
-		<setting code="WSTableColumn_I_Width" value="92" />
-		<setting code="OpenArchiveOnDoubleClick" value="true" />
-		<setting code="Left_ShowByteValue" value="false" />
-		<setting code="TempDirectory" value="temp" />
-		<setting code="Popup_Search_NoColumnsSelected_Show" value="true" />
-		<setting code="DefaultInterfaceColors" value="-12814286" />
-		<setting code="Left_NumberOfColumns" value="32" />
-		<setting code="WSTableColumn_a_Width" value="18" />
-		<setting code="ShowLanguagePackOutdatedError" value="false" />
-		<setting code="Left_ShowHexValue" value="false" />
-		<setting code="AddTextChangesIntoUndo" value="true" />
-		<setting code="WSFontChooserXML" value="settings/fontChooserDialog.wsd" />
-		<setting code="ShowTableColumn_Original" value="true" />
-		<setting code="Left_ShowUnicodeValue" value="false" />
-		<setting code="ExtendedLanguageDebug" value="false" />
-		<setting code="WSTableColumn_T_Width" value="423" />
-		<setting code="Right_ShowHexValue" value="false" />
-		<setting code="ShowTableColumn_AddedIcon" value="true" />
-		<setting code="Popup_WriteArchive_FilenameMissing_Show" value="true" />
-		<setting code="Popup_Options_OptionsSaved_Show" value="true" />
-		<setting code="Popup_Search_NoSearchValue_Show" value="true" />
-		<setting code="Right_ReadLength" value="100000" />
-		<setting code="Left_LittleEndian" value="true" />
-		<setting code="Popup_AddFiles_FilesAdded_Show" value="true" />
-		<setting code="Right_CurrentSidePanel" value="SidePanel_MainFormats" />
-		<setting code="ShowTableColumn_Translated" value="true" />
-		<setting code="DebugMode" value="false" />
-		<setting code="Right_LittleEndian" value="true" />
-		<setting code="Popup_SelectResources_All_Show" value="true" />
-		<setting code="Right_ShadingType" value="0" />
-		<setting code="SettingsFile-Defaults" value="C:\_WATTOz\Development\_Home\Total Byte Informer\settings\defaults\settings.wsd" />
-		<setting code="Popup_AddFiles_NegativeNumberOfFiles_Show" value="true" />
-		<setting code="WSFontChooser_FontSize_Selected" value="12" />
-		<setting code="LanguageDirectory" value="language" />
-		<setting code="Popup_RemoveFiles_FilesAdded_Show" value="true" />
-		<setting code="CurrentArchive" value="C:\_WATTOz\_new_archives\Beyond Good & Evil\sally_clean.bf" />
-		<setting code="SettingsFile" value="C:\_WATTOz\Development\_Home\Total Byte Informer\settings\settings.wsd" />
-		<setting code="Popup_Search_NoMatchFound_Show" value="true" />
-		<setting code="Popup_WriteArchive_ArchiveSaved_Show" value="true" />
-		<setting code="DividerLocation" value="0.5" />
-		<setting code="Right_ShowUnicodeValue" value="false" />
-		<setting code="WSMonthCalendarXML" value="settings/monthCalendarDialog.wsd" />
-		<setting code="Popup_AddFiles_FilesRemoved_Show" value="true" />
-		<setting code="ShowTableColumn_RenamedIcon" value="true" />
-		<setting code="Popup_FullVersionOnly_Show" value="true" />
-		<setting code="SidePanel_DirectoryList_CurrentControl" value="ReadPanel" />
-		<setting code="WSSmallColorChooserXML" value="settings/smallColorChooserDialog.wsd" />
-		<setting code="Popup_RemoveFiles_FilesRemoved_Show" value="true" />
-		<setting code="PluginListDisplayType" value="Game" />
-		<setting code="CurrentDirectory" value="C:\_WATTOz\_new_archives\Beyond Good & Evil" />
-		<setting code="Right_SwapType" value="0" />
-		<setting code="Popup_SelectResources_None_Show" value="true" />
-		<setting code="Popup_ReadArchive_FilenameMissing_Show" value="true" />
-		<setting code="WSTableColumn_O_Width" value="417" />
-		<setting code="Right_NumberOfColumns" value="32" />
-		<setting code="MaxNumberOfFiles4" value="100000" />
-		<setting code="SortPluginLists" value="true" />
-		<setting code="MaxNumberOfFiles2" value="40000" />
-		<setting code="InterfaceColors" value="-12814286" />
-		<setting code="CurrentFileList" value="Table" />
-		<setting code="ToolbarButtonListFile" value="settings/toolbarButtonList.wsd" />
-		<setting code="ShowTableColumn_Attribute" value="true" />
-		<setting code="DefaultSettingsFile" value="settings/defaults/Settings.wsd" />
-		<setting code="DirectoryListView" value="List" />
-		<setting code="DefaultInterfaceFile" value="settings/defaults/interface.wsd" />
-		<setting code="WSTableColumn_r_Width" value="18" />
-		<setting code="DirectoryListDoubleClickDoesOpenArchive" value="true" />
-		<setting code="AutoResizeTableColumns" value="true" />
-		<setting code="SelectedOptionGroup" value="6" />
-		<setting code="WSTableColumn_A_Width" value="75" />
-		<setting code="WSProgramClosesSplashScreen" value="true" />
-		<setting code="Popup_ReadArchive_FileNotAnArchive_Show" value="true" />
-		<setting code="" value="" />
-	</settings>
-</settingsStore>
-
